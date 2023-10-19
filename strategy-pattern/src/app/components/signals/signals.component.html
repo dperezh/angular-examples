@@ -1,1 +1,20 @@
-<p>signals works!</p>
+<div class="container">
+  <h1>Signals</h1>
+
+  <div class="rows">
+    <div class="columns">
+      <label for="ancho">Ancho</label>
+      <input id="ancho"type="number" [ngModel]="height()" (ngModelChange)="height.set($event)">
+    </div>
+    <div class="columns">
+      <label for="largo">Largo</label>
+      <input id="largo"type="number" [ngModel]="width()" (ngModelChange)="width.set($event)">
+    </div>
+  </div>
+  <div class="columns">
+      <label for="area">Área: </label>
+      <input id="area" type="text" disabled [ngModel]="area()">
+    </div>
+</div>
+
+<button class="link" routerLink="">Regresar</button>
