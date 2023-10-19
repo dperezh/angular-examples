@@ -1,0 +1,28 @@
+<div>
+  <h1>Ejemplo básico</h1>
+  <button (click)="exportData('pdf')">Exportar como PDF</button>
+  <button (click)="exportData('doc')">Exportar como Doc</button>
+  <button (click)="exportData('xml')">Exportar como XML</button>
+</div>
+
+<div>
+  <h1>Ejemplo patrón Estrategia</h1>
+  <button (click)="exportDataInPDF()">Exportar como PDF</button>
+  <button (click)="exportDataInDOC()">Exportar como Doc</button>
+  <button (click)="exportDataInXML()">Exportar como XML</button>
+</div>
+
+<div>
+  <h1>Ejemplo patrón Estrategia con servicio</h1>
+  <button (click)="exportDataInPDFWithService()">Exportar como PDF</button>
+  <button (click)="exportDataInDOCWithService()">Exportar como Doc</button>
+  <button (click)="exportDataInXMLWithService()">Exportar como XML</button>
+</div>
+
+<div>
+  <h1>Ejemplo patrón Estrategia con servicio y patrón Factory</h1>
+  <button (click)="exportDataInPDFWithServiceAndFactory()">Exportar como PDF</button>
+  <button (click)="exportDataInDOCWithServiceAndFactory()">Exportar como Doc</button>
+  <button (click)="exportDataInXMLWithServiceAndFactory()">Exportar como XML</button>
+</div>
+
