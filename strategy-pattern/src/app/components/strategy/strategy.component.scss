@@ -1,0 +1,42 @@
+button {
+  padding: 10px 20px 10px 20px;
+  margin-right: 4px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div {
+  button {
+    background-color: cadetblue;
+  }
+}
+
+div {
+  button:hover {
+    background-color: rgb(95, 158, 160, .8);
+  }
+}
+
+.container {
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  background-color: brown;
+}
+
+.link:hover {
+  background-color: rgb(165, 42, 42, .8);
+}
