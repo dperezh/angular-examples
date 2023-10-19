@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Lato';
+  src: url('assets/fonts/Lato-Regular.ttf');
+}
 body {
   margin-left: 200px;
   margin-right: 200px;
+  font-family: 'Lato';
 }
